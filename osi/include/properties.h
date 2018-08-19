@@ -20,6 +20,10 @@
 
 #include <cstdint>
 
+#ifdef PROPERTY_VALUE_MAX
+#undef PROPERTY_VALUE_MAX
+#endif
+
 #define PROPERTY_VALUE_MAX 92
 #define BUILD_SANITY_PROPERTY_VALUE_MAX 92
 
